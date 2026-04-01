@@ -1,23 +1,32 @@
-# Multi-Agent AI Research Assistant
+# 🚀 Multi-Agent AI Research Assistant
 
-This project is a multi-agent AI system built using LangChain and Ollama.
+An intelligent multi-agent system built using LangChain and Ollama that simulates collaborative AI reasoning.
 
-## Features
-- Planner Agent (task decomposition)
-- Researcher Agent (RAG with FAISS)
-- Critic Agent (self-reflection)
-- Summarizer Agent (final response)
+## 🧠 Architecture
 
-## Tech Stack
-- Python
-- LangChain
-- FAISS
-- Ollama (LLM)
+This system uses multiple AI agents working together:
 
-## How to Run
-1. Install dependencies
-2. Run: python main.py
+- 🧭 Planner → Breaks problem into steps  
+- 🔍 Researcher → Retrieves knowledge (RAG using FAISS)  
+- 🧠 Critic → Validates and improves responses  
+- 📝 Summarizer → Produces final answer  
 
-## Example
-Input: "How to build a machine learning model?"
-Output: Step-by-step explanation using multi-agent reasoning
+## ⚙️ Tech Stack
+
+- Python  
+- LangChain  
+- FAISS (Vector Database)  
+- Ollama (Local LLM)  
+
+## 🔥 Features
+
+- Multi-agent orchestration  
+- Retrieval-Augmented Generation (RAG)  
+- Self-reflection loop (Critic agent)  
+- Modular architecture  
+
+## 🚀 How to Run
+
+```bash
+pip install -r requirements.txt
+python main.py
